@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <a href="/about">사업소개</a>
               <a href="/apply">참가신청</a>
               <a href="/">벌레도감</a>
-              <a href="/">언어(Eng)</a>
+              <a href="/">언어&#40;Eng&#41;</a>
             </nav>
           </header>
           <main>{children}</main>
