@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0500fe;
 }
 
 .container {
-  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  background-color: #0500fe;
+  width: 393px;
+  padding: 50px 20px;
 }
 
 header {
