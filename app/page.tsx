@@ -1,13 +1,23 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>swat</title>
-      </Head>
-      <h2>Welcome to My Blog</h2>
-      <p>This is a simple blog created using Next.js and TypeScript with App Router.</p>
+      <Image
+        className="main_img"
+        src="/images/main.svg"
+        alt="main"
+        loading="eager"
+        priority
+        width={348}
+        height={382}
+      />
+      <nav>
+        <a href="/dict">벌레도감<span>Bug Guide</span></a>
+        <a href="/about">도시기생충이란<span>what is an urban parasite?</span></a>
+        <a href="/arverion">AR 벌레잡기<span>AR app (only Android)</span></a>
+      </nav>
     </>
   );
 }

@@ -1,0 +1,68 @@
+.dict_part {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  .title_img {
+    display: block;
+    opacity: 0;
+    animation: fade-in-down 1s ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* .dict_part {
+    text-align: center;
+  } */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.image-list-item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 176px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+
+ &:hover {
+    background-color: #FFEC00;
+  }
+}
+
+
+
+.image-list-item img {
+  padding: 5px;
+  object-fit: contain;
+}
+
+p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
