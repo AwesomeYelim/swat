@@ -38,8 +38,8 @@ export default async function Dict() {
             const match = fileName.match(/^(\d+)_/);
             if (match) {
               return (
-                <Link href={`/dict/${match[1]}`}>
-                  <li className="image-list-item" key={fileName}>
+                <Link key={fileName} href={`/dict/${match[1]}`}>
+                  <li className="image-list-item">
                     <Image
                       key={fileName}
                       src={`/images/dict_img/${fileName}`} // Public 폴더 안의 이미지 경로
