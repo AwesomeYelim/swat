@@ -29,29 +29,32 @@ export default async function Dict() {
         height={66}
       />
       <ul>
-        {images.sort((a : string,b : string) =>{
-          const match = (fileName : string) =>  fileName.match(/^(\d+)_/)?.[1];
-          return +(match(a) as string) - +(match(b) as string)
-        }).map((fileName) => {
-          const match = fileName.match(/^(\d+)_/);
-          if (match) {
-            return (
-              <Link href={`/dict/${match[1]}`} >
-                <li className="image-list-item" key={fileName}>
-                  <Image
-                    src={`/images/dict_img/${fileName}`} // Public 폴더 안의 이미지 경로
-                    alt={fileName}
-                    width={120}
-                    height={100}
-                    objectFit="contain"
-                    layout="fixed"
-                  />
-                </li>
-              </Link>
-            );
-          }
-          return null;
-        })}
+        {images
+          .sort((a: string, b: string) => {
+            const match = (fileName: string) => fileName.match(/^(\d+)_/)?.[1];
+            return +(match(a) as string) - +(match(b) as string);
+          })
+          .map((fileName) => {
+            const match = fileName.match(/^(\d+)_/);
+            if (match) {
+              return (
+                <Link href={`/dict/${match[1]}`}>
+                  <li className="image-list-item" key={fileName}>
+                    <Image
+                      key={fileName}
+                      src={`/images/dict_img/${fileName}`} // Public 폴더 안의 이미지 경로
+                      alt={fileName}
+                      width={120}
+                      height={100}
+                      objectFit="contain"
+                      layout="fixed"
+                    />
+                  </li>
+                </Link>
+              );
+            }
+            return null;
+          })}
       </ul>
     </div>
   );
