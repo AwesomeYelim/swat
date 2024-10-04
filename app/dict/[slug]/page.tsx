@@ -1,9 +1,8 @@
 import Image from "next/image";
-import path from "path";
-import fs from "fs";
 import { redirect } from "next/navigation";
-import "./style.css";
 import { getImages } from "../page";
+import Link from "next/link";
+import "./style.css";
 
 interface Props {
   params: {
@@ -24,6 +23,8 @@ export default async function DictDetail({ params }: Props) {
     const match = fileName.match(/^(\d+)_/);
     return match && parseInt(match[1], 10) === slugNumber;
   });
+  const imgNumber = (imgName: string) => imgName?.match(/^(\d+)_/)?.[1];
+  const imgName = matchingImage?.match(/^[0-9]+_([가-힣0-9]+).png$/)?.[1];
 
   return (
     <>
@@ -31,9 +32,14 @@ export default async function DictDetail({ params }: Props) {
         <div className="detail_page">
           {matchingImage ? (
             <>
-              <Image src={`/images/dict_img/${matchingImage}`} alt={matchingImage} width={100} height={170} />
+              <Image
+                src={`/images/dict_img/${matchingImage}`}
+                alt={matchingImage}
+                width={100}
+                height={170}
+              />
               <h3>
-                {matchingImage.match(/^[0-9]+_([가-힣0-9]+).png$/)?.[1]}
+                {imgName}
                 <span></span>
               </h3>
               <div className="detail">
@@ -58,9 +64,15 @@ export default async function DictDetail({ params }: Props) {
         <div className="bottom_wrap">
           {images.map((imgName) => {
             return (
-              <div className="bottom">
-                <Image src={`/images/dict_img/${imgName}`} alt={imgName} width={40} height={50} layout="fixed" />
-              </div>
+              <Link className="bottom" key={imgName} href={`/dict/${imgNumber(imgName)}`}>
+                <Image
+                  src={`/images/dict_img/${imgName}`}
+                  alt={imgName}
+                  width={40}
+                  height={50}
+                  layout="fixed"
+                />
+              </Link>
             );
           })}
         </div>
