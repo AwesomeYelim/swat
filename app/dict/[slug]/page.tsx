@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
-import { getImages } from "../page";
+import { getImages } from "../../libs/callImage";
 import Link from "next/link";
 import "./style.css";
 

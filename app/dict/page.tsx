@@ -1,14 +1,8 @@
 import Image from "next/image";
-import path from "path";
-import fs from "fs";
+import { getImages } from "../libs/callImage";
 import Link from "next/link";
 import "./style.css";
 
-export async function getImages() {
-  const imagesDirectory = path.join(process.cwd(), "public", "images", "dict_img");
-  const imageFiles = fs.readdirSync(imagesDirectory);
-  return imageFiles;
-}
 
 export default async function Dict() {
   const images = await getImages();
