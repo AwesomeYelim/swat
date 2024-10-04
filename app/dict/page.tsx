@@ -4,13 +4,8 @@ import fs from "fs";
 import Link from "next/link";
 import "./style.css";
 
-async function getImages() {
-  const imagesDirectory = path.join(
-    process.cwd(),
-    "public",
-    "images",
-    "dict_img"
-  );
+export async function getImages() {
+  const imagesDirectory = path.join(process.cwd(), "public", "images", "dict_img");
   const imageFiles = fs.readdirSync(imagesDirectory);
   return imageFiles;
 }

@@ -11,8 +11,11 @@ body {
   width: 393px;
   padding: 50px 20px 31px 20px;
   box-sizing: border-box;
-
-
+  overflow: hidden;
+  height: auto;
+  .white {
+    background-color: #fff;
+  }
 }
 .logo_img {
   margin-bottom: 10px;
@@ -27,40 +30,34 @@ footer {
   margin-top: 20px;
 }
 
-main {
+.main_img {
+  margin: 0 auto 26px auto;
+}
+nav {
   width: fit-content;
   margin: 0 auto;
-
-  .main_img {
-    margin: 0 auto 26px auto;
-  }
-  nav {
-    width: fit-content;
-    margin: 0 auto;
-    a {
-      display: block;
-      border: solid 1px #ffec00;
-      box-sizing: border-box;
-      width: 324px;
-      height: 75px;
-      border-radius: 15px;
-      margin: 0 0 14px 0;
-      text-decoration: none;
-      color: #ffec00;
-      font-weight: 700;
-      font-size: 24px;
-      text-align: center;
-      padding-top: 14px;
-      &:hover {
-        background-color: #ffec00;
-        color: #0500fe;
-      }
-      > span {
-        display: block;
-        font-weight: 400;
-        font-size: 15px;
-      }
+  a {
+    display: block;
+    border: solid 1px #ffec00;
+    box-sizing: border-box;
+    width: 324px;
+    height: 75px;
+    border-radius: 15px;
+    margin: 0 0 14px 0;
+    text-decoration: none;
+    color: #ffec00;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 14px;
+    &:hover {
+      background-color: #ffec00;
+      color: #0500fe;
     }
-    
+    > span {
+      display: block;
+      font-weight: 400;
+      font-size: 15px;
+    }
   }
 }

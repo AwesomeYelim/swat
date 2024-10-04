@@ -1,9 +1,9 @@
-import "./globals.css";
 import Image from "next/image";
 import { ReactNode } from "react";
+import "./globals.css";
 
 export const metadata = {
-  title: "My Blog",
+  title: "Swat",
   description: "A simple blog built with Next.js and TypeScript",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               />
             </a>
           </header>
-          <main>{children}</main>
+          {children}
           {/* <footer>
             <p>&copy; 2024 My Blog. All rights reserved.</p>
           </footer> */}
