@@ -19,10 +19,6 @@ export default async function Dict() {
       />
       <ul>
         {images
-          .sort((a: string, b: string) => {
-            const match = (fileName: string) => fileName.match(/^(\d+)_/)?.[1];
-            return +(match(a) as string) - +(match(b) as string);
-          })
           .map((fileName) => {
             const match = fileName.match(/^(\d+)_/);
             if (match) {

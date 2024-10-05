@@ -1,0 +1,48 @@
+.ar_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffec00;
+  line-height: 1.7;
+  text-align: center;
+  .notice {
+  }
+  .down_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+    height: 230px;
+    border: solid 1px #ffec00;
+    border-radius: 15px;
+    padding: 17px 25px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-bottom: 52px;
+    /* .download_img {
+      margin-bottom: 26px;
+    }
+    .find_bug {
+      margin-bottom: 16px;
+    } */
+    .download {
+      display: flex;
+      width: 268px;
+      height: 47px;
+      background-color: #ffec00;
+      color: #0500fe;
+      border-radius: 15px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}
