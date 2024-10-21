@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ReactNode } from "react";
 import DictLayout from "./components/layout";
 import "./globals.css";
