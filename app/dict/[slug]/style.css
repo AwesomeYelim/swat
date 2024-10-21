@@ -16,14 +16,14 @@
         text-align: center;
         font-weight: 700;
         font-size: 36px;
-        color: #ffec00;
+        color: #0500fe;
         margin-top: 16px;
       }
       .detail {
         p {
           font-weight: 800;
           font-size: 15px;
-          color: #ffec00;
+          color: #0500fe;
 
           span {
             font-weight: 400;
@@ -44,7 +44,7 @@
         align-items: center;
         width: 70px;
         height: 80px;
-        border: solid 1px #ffec00;
+        border: solid 1px #0500fe;
         border-radius: 15px;
         margin-right: 10px;
         cursor: pointer;

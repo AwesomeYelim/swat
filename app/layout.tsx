@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import DictLayout from "./components/layout";
 import "./globals.css";
 
 export const metadata = {
@@ -11,22 +12,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <div className="container">
-          <header>
-            <a href="/">
-              <Image
-                className="logo_img"
-                src="/images/logo.svg"
-                alt="logo"
-                loading="eager"
-                priority
-                width={70}
-                height={84}
-              />
-            </a>
-          </header>
-          {children}
-        </div>
+        <DictLayout>{children}</DictLayout>
       </body>
     </html>
   );
