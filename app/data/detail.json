@@ -1,0 +1,254 @@
+[
+  {
+    "no": 1,
+    "name": "날놈잡이",
+    "eng": "J.H.Simburumis",
+    "fullName": "Jjirasidae Heungsinous Simburumis",
+    "category": "전단과 흥신속 심부름센터충",
+    "type": "꼬마 명함형",
+    "habitat": "주로 터미널, 정류장 등"
+  },
+  {
+    "no": 2,
+    "name": "꼬마당일대충",
+    "eng": "J.D.Bballidonjulas",
+    "fullName": "Jjirasidae Donpilyous Bballidonjulas",
+    "category": "전단과 대출속 당일대충",
+    "type": "꼬마 명함형",
+    "habitat": "전국각지"
+  },
+  {
+    "no": 3,
+    "name": "푸른기발부전벌레",
+    "eng": "J.S.Dandans",
+    "fullName": "Jjirasidae Standious Dandans",
+    "category": "전단과 자양강장속 발부치충",
+    "type": "꼬마 명함형",
+    "habitat": "남자화장실"
+  },
+  {
+    "no": 4,
+    "name": "선수접대벌래",
+    "eng": "J.S.Roomssarongus",
+    "fullName": "Jjirasidae Sexious Roomssarongus",
+    "category": "전단과 업속 룸충",
+    "type": "꼬마 명함형",
+    "habitat": "술집거리, 어두운 골목"
+  },
+  {
+    "no": 5,
+    "name": "넓적호박앞잡이",
+    "eng": "J.S.Nightous",
+    "fullName": "Jjirasidae Sexious Nightous",
+    "category": "전단과 업속 나이트충",
+    "type": "넓적 전단지형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 6,
+    "name": "천에팔십평평벌레",
+    "eng": "J.H.Oneroominious",
+    "fullName": "Jjirasidae Homelessious Oneroominious",
+    "category": "전단과 부동산속 원룸전월세충",
+    "type": "넓적 전단지형",
+    "habitat": "부동산 지역 내"
+  },
+  {
+    "no": 7,
+    "name": "무낲짜장벌레",
+    "eng": "J.P.Jjajangs",
+    "fullName": "Jjirasidae Panchockus Jjajangs",
+    "category": "전단과 판촉속 요식충",
+    "type": "넓적 전단지형",
+    "habitat": "아파트단지, 대문 앞"
+  },
+  {
+    "no": 8,
+    "name": "방구투룸반전세벌레",
+    "eng": "J.H.Oneroominious",
+    "fullName": "Jjirasidae Homelessious Oneroominious",
+    "category": "전단과 부동산속 원룸전월세충",
+    "type": "넓적 전단지형",
+    "habitat": "전국각지, 주로 주택단지"
+  },
+  {
+    "no": 9,
+    "name": "너훈아밤벌레",
+    "eng": "J.S.Nightous",
+    "fullName": "Jjirasidae Sexious Nightous",
+    "category": "전단과 업속 나이트충",
+    "type": "넓적 전단지형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 10,
+    "name": "날먹잡이",
+    "eng": "J.H.Dondalas",
+    "fullName": "Jjirasidae Heungsinous Dondalas",
+    "category": "전단과 흥신속 일수충",
+    "type": "넓적 전단지형",
+    "habitat": "도심주변에 주로 서식"
+  },
+  {
+    "no": 11,
+    "name": "꼬마폰파리",
+    "eng": "J.P.Phoneparis",
+    "fullName": "Jjirasidae Panchockus Phoneparis",
+    "category": "전단과 판촉속 폰파리충",
+    "type": "꼬마 명함형",
+    "habitat": "대학로, 상권가, 번화가"
+  },
+  {
+    "no": 12,
+    "name": "꼬마남청벌레",
+    "eng": "J.S.Hobbakus",
+    "fullName": "Jjirasidae Sexious Hobbakus",
+    "category": "전단과 업속 호빠충",
+    "type": "꼬마 명함형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 13,
+    "name": "긴다리자벌레",
+    "eng": "J.P.Longdairs",
+    "fullName": "Jjirasidae Panchockus Longdairs",
+    "category": "전단과 판촉속 집옮충",
+    "type": "큰붙이 대형",
+    "habitat": "주택가 주변 전봇대"
+  },
+  {
+    "no": 14,
+    "name": "꼬마용다리",
+    "eng": "J.P.Yongdals",
+    "fullName": "Jjirasidae Panchockus Yongdals",
+    "category": "전단과 판촉속 집옮충",
+    "type": "꼬마 명함형",
+    "habitat": "주택가 주변 전봇대"
+  },
+  {
+    "no": 15,
+    "name": "나체남다리가슴벌레",
+    "eng": "J.S.Hobbakus",
+    "fullName": "Jjirasidae Sexious Hobbakus",
+    "category": "전단과 업속 호빠충",
+    "type": "반넓적 전단지형",
+    "habitat": "유흥업소 주변, 길 위"
+  },
+  {
+    "no": 16,
+    "name": "꼬마아줌잡이",
+    "eng": "J.H.Jummailsus",
+    "fullName": "Jjirasidae Heungsinous Jummailsus",
+    "category": "전단과 흥신속 아줌마일수충",
+    "type": "꼬마 명함형",
+    "habitat": "주택, 아파트단지"
+  },
+  {
+    "no": 17,
+    "name": "꼬마호박앞잡이",
+    "eng": "J.S.Nightous",
+    "fullName": "Jjirasidae Sexious Nightous",
+    "category": "전단과 업속 나이트충",
+    "type": "꼬마 명함형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 18,
+    "name": "역세도보앞막이",
+    "eng": "J.H.Apartmentious",
+    "fullName": "Jjirasidae Homelessious Apartmentious",
+    "category": "전단과 부동산속 아팥분양충",
+    "type": "넓적 전단지형",
+    "habitat": "부동산 지역 내, 지하철역 근처"
+  },
+  {
+    "no": 19,
+    "name": "급전사기머리",
+    "eng": "J.D.Donbillinious",
+    "fullName": "Jjirasidae Donpilyous Donbillinious",
+    "category": "전단과 대출속 일수충",
+    "type": "꼬마 명함형",
+    "habitat": "전국적으로 고루 분포"
+  },
+  {
+    "no": 20,
+    "name": "강남셔츠지충",
+    "eng": "J.S.Shirtroomus",
+    "fullName": "J.S.Shirtroomus",
+    "category": "전단과 업속 셔츠룸충",
+    "type": "반넓적 전단지형",
+    "habitat": "유흥업소 주변, 길 위"
+  },
+  {
+    "no": 21,
+    "name": "거짓떠리파리",
+    "eng": "J.P.Moondadas",
+    "fullName": "Jjirasidae Panchockus Moondadas",
+    "category": "전단과 판촉속 폐업충",
+    "type": "넓적 전단지형",
+    "habitat": "폐업 매장 근처 서식"
+  },
+  {
+    "no": 22,
+    "name": "등쳐먹벌레",
+    "eng": "J.D.Bballidonjulas",
+    "fullName": "Jjirasidae Donpilyous Bballidonjulas",
+    "category": "전단과 대출속 당일대충",
+    "type": "넓적 전단지형",
+    "habitat": "전국적으로 고루 분포"
+  },
+  {
+    "no": 23,
+    "name": "영등포롱싸롱벌레",
+    "eng": "J.S.Roomssarongus",
+    "fullName": "Jjirasidae Sexious Roomssarongus",
+    "category": "전단과 업속 룸쌀롱충",
+    "type": "넓적 전단지형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 24,
+    "name": "상하수막벌레",
+    "eng": "J.P.Ddongtongs",
+    "fullName": "Jjirasidae Panchockus Ddongtongs",
+    "category": "전단과 판촉속 뚜러충",
+    "type": "붙이 소형",
+    "habitat": "주택단지 주변"
+  },
+  {
+    "no": 25,
+    "name": "붉은꽃마귀",
+    "eng": "J.S.Manmassagious",
+    "fullName": "Jjirasidae Standious Manmassagious",
+    "category": "전단과 자양강속 남자맛사지충",
+    "type": "꼬마 명함형",
+    "habitat": "여자화장실"
+  },
+  {
+    "no": 26,
+    "name": "국영숫사과벌레",
+    "eng": "J.P.Sunsaengs",
+    "fullName": "Jjirasidae Panchockus Sunsaengs",
+    "category": "전단과 판촉속 과외충",
+    "type": "넓적 전단지형",
+    "habitat": "아파트 단지 전봇대"
+  },
+  {
+    "no": 27,
+    "name": "꼬마너훈아밤벌레",
+    "eng": "J.S.Nightous",
+    "fullName": "Jjirasidae Sexious Nightous",
+    "category": "전단과 업속 나이트충",
+    "type": "꼬마 명함형",
+    "habitat": "유흥업소 주변"
+  },
+  {
+    "no": 28,
+    "name": "날놈잡이",
+    "eng": "J.H.Simburumis",
+    "fullName": "Jjirasidae Heungsinous Simburumis",
+    "category": "전단과 흥신속 심부름센터충",
+    "type": "꼬마 명함형",
+    "habitat": "주로 터미널, 정류장 등"
+  }
+]

@@ -26,9 +26,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </a>
           </header>
           {children}
-          {/* <footer>
-            <p>&copy; 2024 My Blog. All rights reserved.</p>
-          </footer> */}
         </div>
       </body>
     </html>

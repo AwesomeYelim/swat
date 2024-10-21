@@ -10,3 +10,9 @@ export async function getImages() {
   });
   return imageFiles;
 }
+
+export async function getData() {
+  const filePath = path.join(process.cwd(), "app", "data", "detail.json");
+  const fileContent = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(fileContent);
+}

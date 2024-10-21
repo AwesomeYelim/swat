@@ -13,9 +13,10 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   height: auto;
-  .white {
-    background-color: #fff;
-  }
+}
+
+.white {
+  background-color: #fff;
 }
 .logo_img {
   margin-bottom: 10px;
