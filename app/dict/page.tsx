@@ -29,7 +29,7 @@ export default async function Dict() {
                     alt={fileName}
                     width={120}
                     height={100}
-                    style={{ objectFit: "cover" }} // CSS로 대체
+                    layout="fixed"
                   />
                 </li>
               </Link>
