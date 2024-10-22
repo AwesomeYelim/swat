@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
-import { getImages, getData } from "../../libs/get";
+import { getImages, getDetail } from "../../libs/get";
 import Link from "next/link";
 import "./style.css";
 
@@ -17,7 +17,7 @@ export default async function DictDetail({ params }: Props) {
   }
 
   const images = await getImages();
-  const details = await getData();
+  const details = await getDetail();
   const slugNumber = parseInt(params.slug, 10);
 
   const matchingImage = images.find((fileName) => {
