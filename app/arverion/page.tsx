@@ -1,5 +1,6 @@
 import Image from "next/image";
-import "./style.css"
+import Link from "next/link";
+import "./style.css";
 
 export default function Apply() {
   return (
@@ -22,7 +23,9 @@ export default function Apply() {
           height={47}
         />
         <span className="find_bug">전시장속 숨은 벌레잡기</span>
-        <span className="download">다운로드 / Download</span>
+        <Link className="download" href="/apk/build.apk.zip" download>
+          다운로드 / Download
+        </Link>
         <span>only for android</span>
       </div>
       <div>
