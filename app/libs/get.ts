@@ -3,7 +3,8 @@ import path from "path";
 import fs from "fs";
 
 export async function getImages() {
-  const imageFiles = getData(["public", "images", "dict_img"]).sort(
+  const filePath = path.join(process.cwd(), "public", "images", "dict_img");
+  const imageFiles = fs.readdirSync(filePath).sort(
     (a: string, b: string) => {
       const match = (fileName: string) => fileName.match(/^(\d+)_/)?.[1];
       return +(match(a) as string) - +(match(b) as string);
