@@ -28,6 +28,7 @@ export default async function DictDetail({ params }: Props) {
   const [imgNumber, imgName] = matchingImage?.split("_") as string[];
   const target = details[+imgNumber - 1];
   const pureImageName = imgName.substring(0, imgName.lastIndexOf("."));
+
   return (
     <div className="detail_wrap">
       <div className="detail_page">
